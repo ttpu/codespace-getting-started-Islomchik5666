@@ -10,7 +10,7 @@
   
   // Prevent overriding the container’s entry point
   "overrideCommand": false
-  ,
+,
 "customizations": {
     "vscode": {
         "extensions": [
@@ -23,3 +23,5 @@
         ]
     }
 }
+
+ 
