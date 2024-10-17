@@ -1,16 +1,16 @@
 {
-  // Name this configuration
+  // Konfiguratsiyani nomlang
   "name": "Codespace for Skills!",
   
-  // Use the base codespace image
+  // Asosiy codespace tasviridan foydalaning
   "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
   
-  // Define the user for the container
+  // Konteyner ichidagi foydalanuvchini belgilash
   "remoteUser": "codespace",
   
-  // Prevent overriding the container’s entry point
+  // Konteynerning boshlang'ich komandasi ustidan nazoratni o'zgartirish
   "overrideCommand": false
-,
+  ,
 "customizations": {
     "vscode": {
         "extensions": [
@@ -22,6 +22,8 @@
             "codespace.md"
         ]
     }
+}
+
 }
 
  
