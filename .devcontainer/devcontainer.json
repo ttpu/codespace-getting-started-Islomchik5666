@@ -1,0 +1,29 @@
+{
+  // Konfiguratsiyani nomlang
+  "name": "Codespace for Skills!",
+  
+  // Asosiy codespace tasviridan foydalaning
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+  
+  // Konteyner ichidagi foydalanuvchini belgilash
+  "remoteUser": "codespace",
+  
+  // Konteynerning boshlang'ich komandasi ustidan nazoratni o'zgartirish
+  "overrideCommand": false
+  ,
+"customizations": {
+    "vscode": {
+        "extensions": [
+            "GitHub.copilot"
+        ]
+    },
+    "codespaces": {
+        "openFiles": [
+            "codespace.md"
+        ]
+    }
+}
+
+}
+
+ 
